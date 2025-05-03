@@ -17,7 +17,7 @@ export const pasteSlice = createSlice({
       state.pastes.push(paste);
       localStorage.setItem("pastes",JSON.stringify(state.pastes));
       toast("paste created successfully",{
-        icon:"👏",
+        icon:"👏", 
         style:{
           background:"#333",
           color:"#fff",
